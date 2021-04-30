@@ -9,11 +9,13 @@ margin:0;
 }
 
 footer{
+left: 0; bottom: 0;
+ /* Левый нижний угол */
 position: absolute;
 left: 0; bottom: 0;
 width: 100%;
 height: 5%;
-Background: #ffffff;
+background: #ffffff;
 opacity: 0.83;
 text-align: right;
 }
@@ -113,9 +115,6 @@ nav a {
   visibility: hidden;
   opacity: 0;
   transform: scale(.8);
-.topmenu > div228 {
-  margin-left 
-}
   
 }
 .submenu li a {
@@ -155,19 +154,3 @@ height: 400px;
   	margin: 15px 15px 15px 15px;
   	width: 550px;
   }
-
-
-.faf{
-position: absolute;
-
-}
-
-p{
-position: absolute;
-margin-left: 10px;
-color: #767676;
- font-family: 'Exo 2', sans-serif;
-
-}
-
-
